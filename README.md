@@ -1,5 +1,8 @@
 # Typescript-Docx-replacer-with-a-json-file
 
+**Download and unzip the file. then replace the docx file and the sample json file and run it according to this file.**
+
+
 # How the file works:
 The big picture: A .docx file is actually a ZIP archive containing XML files. The program unzips the document, finds your {{placeholders}} in the XML, swaps them with values from your JSON, then rezips it back into a valid .docx.
 
